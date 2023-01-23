@@ -47,7 +47,15 @@ export default function Home() {
 					</div>
 				</div>
 
-				<div className="h-20 w-full bg-cyan-500">Test</div>
+				<div>
+					<p className="h-20 w-full bg-cyan-500">Test</p>
+					<Button
+						backgroundColor="#33a2c5"
+						label="Button"
+						onClick={() => {}}
+						primary
+					/>
+				</div>
 
 				<div className={styles.center}>
 					<Image
